@@ -111,7 +111,7 @@ router.get('/visualizaciones/titulo/:id', async (req, res) => {
     } catch (err) { res.status(500).json(err); }
 });
 
-// AGREGACIÓN: Contar cuántas visualizaciones tiene cada título
+// AGREGACIÓN 1: Contar cuántas visualizaciones tiene cada título
 router.get('/reporte/conteo-visualizaciones', async (req, res) => {
     try {
         const reporte = await Visualizacion.aggregate([
@@ -120,6 +120,36 @@ router.get('/reporte/conteo-visualizaciones', async (req, res) => {
         ]);
         res.json(reporte);
     } catch (err) { res.status(500).json(err); }
+});
+
+// AGREGACIÓN 2: Top 5 de títulos mejor calificados (Promedio)
+router.get('/reporte/mejores-calificados', async (req, res) => {
+    try {
+        const mejoresTitulos = await Visualizacion.aggregate([
+            // ETAPA 1: Agrupar por ID de título y calcular el promedio de sus calificaciones
+            { 
+                $group: { 
+                    _id: "$id_titulo", 
+                    promedio: { $avg: "$calificacion_usuario" },
+                    totalVotos: { $sum: 1 } // Contamos cuántas personas calificaron
+                } 
+            },
+            // ETAPA 2: Redondear el promedio a 1 decimal
+            {
+                $project: {
+                    promedio: { $round: ["$promedio", 1] },
+                    totalVotos: 1
+                }
+            },
+            // ETAPA 3: Ordenar de mayor a menor promedio
+            { $sort: { promedio: -1 } },
+            // ETAPA 4: Limitar al Top 5 para que sea un reporte selecto
+            { $limit: 5 }
+        ]);
+        res.json(mejoresTitulos);
+    } catch (err) { 
+        res.status(500).json({ mensaje: "Error en reporte de promedios", error: err }); 
+    }
 });
 // --- AGREGAR ESTO EN TU BACKEND ---
 
