@@ -3,6 +3,12 @@ const router = express.Router();
 const Titulo = require('../models/Titulo');
 const Visualizacion = require('../models/Visualizacion');
 
+// Filtro reutilizable: excluye los datos de PRUEBA (sembrados con seed.js /
+// regenerar.js, cuyo id_titulo empieza con "seed-"). Se aplica en las consultas
+// del catálogo para que la interfaz muestre solo los títulos reales y no se
+// sature con el millón y medio de documentos de prueba.
+const SOLO_REALES = { id_titulo: { $not: /^seed-/ } };
+
 // --- 1. CREATE (Inserciones) ---
 
 // Insertar un nuevo título
@@ -57,7 +63,9 @@ router.put('/titulos/agregar-actor/:id', async (req, res) => {
 router.get('/titulos', async (req, res) => {
     try {
         const limit = parseInt(req.query.limit) || 0; // 0 = sin límite
-        const query = Titulo.find();
+        // Por defecto muestra solo títulos reales. Con ?incluirSeed=1 trae todo.
+        const filtro = req.query.incluirSeed ? {} : SOLO_REALES;
+        const query = Titulo.find(filtro);
         if (limit > 0) query.limit(limit);
         const titulos = await query;
         res.json(titulos);
@@ -90,8 +98,9 @@ router.get('/titulos/distinct/paises', async (req, res) => {
 router.get('/titulos/tipo/pelicula', async (req, res) => {
     try {
         // Busca "Película" o "pelicula" de forma insensible a mayúsculas/tildes
-        const titulos = await Titulo.find({ 
-            tipo_contenido: { $regex: new RegExp("Película", "i") } 
+        const titulos = await Titulo.find({
+            ...SOLO_REALES,
+            tipo_contenido: { $regex: new RegExp("Película", "i") }
         });
         res.json(titulos);
     } catch (err) { res.status(500).json(err); }
@@ -100,7 +109,7 @@ router.get('/titulos/tipo/pelicula', async (req, res) => {
 // Consultar títulos por género (Busca dentro del arreglo)
 router.get('/titulos/genero/:genero', async (req, res) => {
     try {
-        const titulos = await Titulo.find({ generos: req.params.genero });
+        const titulos = await Titulo.find({ ...SOLO_REALES, generos: req.params.genero });
         res.json(titulos);
     } catch (err) { res.status(500).json(err); }
 });
@@ -108,7 +117,7 @@ router.get('/titulos/genero/:genero', async (req, res) => {
 // Consultar títulos por país de producción
 router.get('/titulos/pais/:pais', async (req, res) => {
     try {
-        const titulos = await Titulo.find({ pais_produccion: req.params.pais });
+        const titulos = await Titulo.find({ ...SOLO_REALES, pais_produccion: req.params.pais });
         res.json(titulos);
     } catch (err) { res.status(500).json(err); }
 });
@@ -116,7 +125,7 @@ router.get('/titulos/pais/:pais', async (req, res) => {
 // Consultar títulos por año de lanzamiento
 router.get('/titulos/anio/:anio', async (req, res) => {
     try {
-        const titulos = await Titulo.find({ anio_lanzamiento: parseInt(req.params.anio) });
+        const titulos = await Titulo.find({ ...SOLO_REALES, anio_lanzamiento: parseInt(req.params.anio) });
         res.json(titulos);
     } catch (err) { res.status(500).json(err); }
 });
@@ -277,8 +286,9 @@ router.get('/reporte/conteo-por-tipo', async (req, res) => {
 // Consultar todos los títulos tipo Serie (Insensible a mayúsculas)
 router.get('/titulos/tipo/serie', async (req, res) => {
     try {
-        const titulos = await Titulo.find({ 
-            tipo_contenido: { $regex: new RegExp("Serie", "i") } 
+        const titulos = await Titulo.find({
+            ...SOLO_REALES,
+            tipo_contenido: { $regex: new RegExp("Serie", "i") }
         });
         res.json(titulos);
     } catch (err) { res.status(500).json(err); }
