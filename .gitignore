@@ -1,0 +1,7 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (contienen credenciales, NO subir)
+.env
+.env.*
+!.env.example

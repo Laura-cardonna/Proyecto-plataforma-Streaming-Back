@@ -53,10 +53,36 @@ router.put('/titulos/agregar-actor/:id', async (req, res) => {
 // --- 2. READ (Consultas) ---
 
 // NUEVA: Consultar TODOS los títulos (Necesaria para la carga inicial del Front)
+// Acepta ?limit=N para no traer millones de documentos de golpe al catálogo.
 router.get('/titulos', async (req, res) => {
     try {
-        const titulos = await Titulo.find();
+        const limit = parseInt(req.query.limit) || 0; // 0 = sin límite
+        const query = Titulo.find();
+        if (limit > 0) query.limit(limit);
+        const titulos = await query;
         res.json(titulos);
+    } catch (err) { res.status(500).json(err); }
+});
+
+// Valores DISTINTOS para llenar los filtros dinámicamente en el front
+router.get('/titulos/distinct/generos', async (req, res) => {
+    try {
+        const generos = await Titulo.distinct('generos');
+        res.json(generos.filter(g => g).sort());
+    } catch (err) { res.status(500).json(err); }
+});
+
+router.get('/titulos/distinct/anios', async (req, res) => {
+    try {
+        const anios = await Titulo.distinct('anio_lanzamiento');
+        res.json(anios.filter(a => a).sort((x, y) => y - x)); // más reciente primero
+    } catch (err) { res.status(500).json(err); }
+});
+
+router.get('/titulos/distinct/paises', async (req, res) => {
+    try {
+        const paises = await Titulo.distinct('pais_produccion');
+        res.json(paises.filter(p => p).sort());
     } catch (err) { res.status(500).json(err); }
 });
 
@@ -147,10 +173,105 @@ router.get('/reporte/mejores-calificados', async (req, res) => {
             { $limit: 5 }
         ]);
         res.json(mejoresTitulos);
-    } catch (err) { 
-        res.status(500).json({ mensaje: "Error en reporte de promedios", error: err }); 
+    } catch (err) {
+        res.status(500).json({ mensaje: "Error en reporte de promedios", error: err });
     }
 });
+
+// ============================================================
+//   AGREGACIONES NUEVAS (Pipeline de Agregación de MongoDB)
+// ============================================================
+
+// AGREGACIÓN 3: Top 10 títulos MÁS VISTOS con su nombre real.
+// Usa $lookup para hacer un JOIN entre la colección Visualizaciones y Titulos.
+router.get('/reporte/mas-vistos', async (req, res) => {
+    try {
+        const reporte = await Visualizacion.aggregate([
+            // 1. Agrupar por título y contar cuántas visualizaciones tiene
+            { $group: { _id: "$id_titulo", totalVistas: { $sum: 1 } } },
+            // 2. Ordenar de más visto a menos visto
+            { $sort: { totalVistas: -1 } },
+            // 3. Tomar solo el Top 10
+            { $limit: 10 },
+            // 4. JOIN: traer la info del título desde la colección "Titulos"
+            { $lookup: {
+                from: "Titulos",
+                localField: "_id",
+                foreignField: "id_titulo",
+                as: "info"
+            }},
+            // 5. Convertir el array "info" en un objeto plano
+            { $unwind: "$info" },
+            // 6. Seleccionar solo los campos que nos interesan
+            { $project: {
+                _id: 1,
+                totalVistas: 1,
+                titulo: "$info.titulo",
+                tipo: "$info.tipo_contenido"
+            }}
+        ]);
+        res.json(reporte);
+    } catch (err) { res.status(500).json({ mensaje: "Error en reporte mas-vistos", error: err.message }); }
+});
+
+// AGREGACIÓN 4: Popularidad por GÉNERO.
+// Usa $unwind para "desenrollar" el arreglo de generos y poder contarlos uno a uno.
+router.get('/reporte/generos-populares', async (req, res) => {
+    try {
+        const reporte = await Titulo.aggregate([
+            // 1. Desenrollar el arreglo "generos" (un documento por cada género)
+            { $unwind: "$generos" },
+            // 2. Agrupar por género y contar cuántos títulos lo tienen
+            { $group: { _id: "$generos", cantidad: { $sum: 1 } } },
+            // 3. Ordenar de mayor a menor cantidad
+            { $sort: { cantidad: -1 } }
+        ]);
+        res.json(reporte);
+    } catch (err) { res.status(500).json({ mensaje: "Error en reporte generos", error: err.message }); }
+});
+
+// AGREGACIÓN 5: Visualizaciones por PAÍS de usuario.
+// Cuenta visualizaciones y calcula la calificación promedio por país ($avg + $round).
+router.get('/reporte/vis-por-pais', async (req, res) => {
+    try {
+        const reporte = await Visualizacion.aggregate([
+            { $group: {
+                _id: "$pais_usuario",
+                totalVisualizaciones: { $sum: 1 },
+                calificacionPromedio: { $avg: "$calificacion_usuario" }
+            }},
+            { $project: {
+                totalVisualizaciones: 1,
+                calificacionPromedio: { $round: ["$calificacionPromedio", 1] }
+            }},
+            { $sort: { totalVisualizaciones: -1 } }
+        ]);
+        res.json(reporte);
+    } catch (err) { res.status(500).json({ mensaje: "Error en reporte por pais", error: err.message }); }
+});
+
+// AGREGACIÓN 6: Visualizaciones por DISPOSITIVO (Smart TV, Móvil, etc.)
+router.get('/reporte/vis-por-dispositivo', async (req, res) => {
+    try {
+        const reporte = await Visualizacion.aggregate([
+            { $group: { _id: "$dispositivo", total: { $sum: 1 } } },
+            { $sort: { total: -1 } }
+        ]);
+        res.json(reporte);
+    } catch (err) { res.status(500).json({ mensaje: "Error en reporte por dispositivo", error: err.message }); }
+});
+
+// AGREGACIÓN 7: Cantidad de títulos por TIPO de contenido (Película vs Serie).
+router.get('/reporte/conteo-por-tipo', async (req, res) => {
+    try {
+        const reporte = await Titulo.aggregate([
+            { $group: { _id: "$tipo_contenido", total: { $sum: 1 } } },
+            { $sort: { total: -1 } }
+        ]);
+        res.json(reporte);
+    } catch (err) { res.status(500).json({ mensaje: "Error en reporte por tipo", error: err.message }); }
+});
+
 // --- AGREGAR ESTO EN TU BACKEND ---
 
 // Consultar todos los títulos tipo Serie (Insensible a mayúsculas)
@@ -178,6 +299,18 @@ router.patch('/titulos/actualizar-edad/:id', async (req, res) => {
         const actualizado = await Titulo.findOneAndUpdate(
             { id_titulo: req.params.id },
             { clasificacion_edad: req.body.nueva_edad },
+            { new: true }
+        );
+        res.json(actualizado);
+    } catch (err) { res.status(500).json(err); }
+});
+
+// Actualizar (o agregar) la imagen/póster de un título
+router.patch('/titulos/actualizar-imagen/:id', async (req, res) => {
+    try {
+        const actualizado = await Titulo.findOneAndUpdate(
+            { id_titulo: req.params.id },
+            { imagen: req.body.imagen },
             { new: true }
         );
         res.json(actualizado);

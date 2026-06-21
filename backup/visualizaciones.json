@@ -1,0 +1,602 @@
+[
+  {
+    "_id": "6a21a859271fc16fc463975f",
+    "id_visualizacion": "v1",
+    "id_titulo": "s1",
+    "fecha_visualizacion": "2023-01-15",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 5,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "90 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639760",
+    "id_visualizacion": "v2",
+    "id_titulo": "s2",
+    "fecha_visualizacion": "2023-01-16",
+    "pais_usuario": "México",
+    "calificacion_usuario": 4,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "45 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639761",
+    "id_visualizacion": "v3",
+    "id_titulo": "s3",
+    "fecha_visualizacion": "2023-01-17",
+    "pais_usuario": "Argentina",
+    "calificacion_usuario": 3,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "50 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639762",
+    "id_visualizacion": "v4",
+    "id_titulo": "s4",
+    "fecha_visualizacion": "2023-01-18",
+    "pais_usuario": "Chile",
+    "calificacion_usuario": 5,
+    "dispositivo": "Tablet",
+    "tiempo_reproduccion": "40 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639763",
+    "id_visualizacion": "v5",
+    "id_titulo": "s5",
+    "fecha_visualizacion": "2023-01-19",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 4,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "30 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639764",
+    "id_visualizacion": "v6",
+    "id_titulo": "s6",
+    "fecha_visualizacion": "2023-01-20",
+    "pais_usuario": "España",
+    "calificacion_usuario": 5,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "60 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639765",
+    "id_visualizacion": "v7",
+    "id_titulo": "s7",
+    "fecha_visualizacion": "2023-01-21",
+    "pais_usuario": "México",
+    "calificacion_usuario": 2,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "91 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639766",
+    "id_visualizacion": "v8",
+    "id_titulo": "s8",
+    "fecha_visualizacion": "2023-01-22",
+    "pais_usuario": "Perú",
+    "calificacion_usuario": 4,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "125 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639767",
+    "id_visualizacion": "v9",
+    "id_titulo": "s9",
+    "fecha_visualizacion": "2023-01-23",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 5,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "45 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639768",
+    "id_visualizacion": "v10",
+    "id_titulo": "s10",
+    "fecha_visualizacion": "2023-01-24",
+    "pais_usuario": "Ecuador",
+    "calificacion_usuario": 3,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "104 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639769",
+    "id_visualizacion": "v11",
+    "id_titulo": "s11",
+    "fecha_visualizacion": "2023-01-25",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 4,
+    "dispositivo": "Tablet",
+    "tiempo_reproduccion": "50 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463976a",
+    "id_visualizacion": "v12",
+    "id_titulo": "s12",
+    "fecha_visualizacion": "2023-01-26",
+    "pais_usuario": "México",
+    "calificacion_usuario": 5,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "48 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463976b",
+    "id_visualizacion": "v13",
+    "id_titulo": "s13",
+    "fecha_visualizacion": "2023-01-27",
+    "pais_usuario": "Chile",
+    "calificacion_usuario": 4,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "127 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463976c",
+    "id_visualizacion": "v14",
+    "id_titulo": "s14",
+    "fecha_visualizacion": "2023-01-28",
+    "pais_usuario": "Argentina",
+    "calificacion_usuario": 1,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "20 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463976d",
+    "id_visualizacion": "v15",
+    "id_titulo": "s15",
+    "fecha_visualizacion": "2023-01-29",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 3,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "55 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463976e",
+    "id_visualizacion": "v16",
+    "id_titulo": "s16",
+    "fecha_visualizacion": "2023-01-30",
+    "pais_usuario": "Perú",
+    "calificacion_usuario": 5,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "30 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463976f",
+    "id_visualizacion": "v17",
+    "id_titulo": "s17",
+    "fecha_visualizacion": "2023-02-01",
+    "pais_usuario": "México",
+    "calificacion_usuario": 4,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "67 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639770",
+    "id_visualizacion": "v18",
+    "id_titulo": "s18",
+    "fecha_visualizacion": "2023-02-02",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 4,
+    "dispositivo": "Tablet",
+    "tiempo_reproduccion": "45 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639771",
+    "id_visualizacion": "v19",
+    "id_titulo": "s19",
+    "fecha_visualizacion": "2023-02-03",
+    "pais_usuario": "Argentina",
+    "calificacion_usuario": 2,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "94 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639772",
+    "id_visualizacion": "v20",
+    "id_titulo": "s20",
+    "fecha_visualizacion": "2023-02-04",
+    "pais_usuario": "España",
+    "calificacion_usuario": 5,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "50 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639773",
+    "id_visualizacion": "v21",
+    "id_titulo": "s21",
+    "fecha_visualizacion": "2023-02-05",
+    "pais_usuario": "México",
+    "calificacion_usuario": 3,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "50 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639774",
+    "id_visualizacion": "v22",
+    "id_titulo": "s22",
+    "fecha_visualizacion": "2023-02-06",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 5,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "45 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639775",
+    "id_visualizacion": "v23",
+    "id_titulo": "s23",
+    "fecha_visualizacion": "2023-02-07",
+    "pais_usuario": "Chile",
+    "calificacion_usuario": 4,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "161 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639776",
+    "id_visualizacion": "v24",
+    "id_titulo": "s24",
+    "fecha_visualizacion": "2023-02-08",
+    "pais_usuario": "México",
+    "calificacion_usuario": 5,
+    "dispositivo": "Tablet",
+    "tiempo_reproduccion": "61 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639777",
+    "id_visualizacion": "v25",
+    "id_titulo": "s25",
+    "fecha_visualizacion": "2023-02-09",
+    "pais_usuario": "Argentina",
+    "calificacion_usuario": 3,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "166 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639778",
+    "id_visualizacion": "v26",
+    "id_titulo": "s26",
+    "fecha_visualizacion": "2023-02-10",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 4,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "40 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639779",
+    "id_visualizacion": "v27",
+    "id_titulo": "s27",
+    "fecha_visualizacion": "2023-02-11",
+    "pais_usuario": "Perú",
+    "calificacion_usuario": 2,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "147 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463977a",
+    "id_visualizacion": "v28",
+    "id_titulo": "s28",
+    "fecha_visualizacion": "2023-02-12",
+    "pais_usuario": "Ecuador",
+    "calificacion_usuario": 5,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "103 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463977b",
+    "id_visualizacion": "v29",
+    "id_titulo": "s29",
+    "fecha_visualizacion": "2023-02-13",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 3,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "97 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463977c",
+    "id_visualizacion": "v30",
+    "id_titulo": "s30",
+    "fecha_visualizacion": "2023-02-14",
+    "pais_usuario": "México",
+    "calificacion_usuario": 4,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "106 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463977d",
+    "id_visualizacion": "v31",
+    "id_titulo": "s31",
+    "fecha_visualizacion": "2023-02-15",
+    "pais_usuario": "Chile",
+    "calificacion_usuario": 5,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "111 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463977e",
+    "id_visualizacion": "v32",
+    "id_titulo": "s32",
+    "fecha_visualizacion": "2023-02-16",
+    "pais_usuario": "Argentina",
+    "calificacion_usuario": 4,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "22 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463977f",
+    "id_visualizacion": "v33",
+    "id_titulo": "s33",
+    "fecha_visualizacion": "2023-02-17",
+    "pais_usuario": "España",
+    "calificacion_usuario": 5,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "50 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639780",
+    "id_visualizacion": "v34",
+    "id_titulo": "s34",
+    "fecha_visualizacion": "2023-02-18",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 5,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "60 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639781",
+    "id_visualizacion": "v35",
+    "id_titulo": "s35",
+    "fecha_visualizacion": "2023-02-19",
+    "pais_usuario": "México",
+    "calificacion_usuario": 3,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "20 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639782",
+    "id_visualizacion": "v36",
+    "id_titulo": "s36",
+    "fecha_visualizacion": "2023-02-20",
+    "pais_usuario": "Argentina",
+    "calificacion_usuario": 4,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "110 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639783",
+    "id_visualizacion": "v37",
+    "id_titulo": "s37",
+    "fecha_visualizacion": "2023-02-21",
+    "pais_usuario": "Chile",
+    "calificacion_usuario": 5,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "105 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639784",
+    "id_visualizacion": "v38",
+    "id_titulo": "s38",
+    "fecha_visualizacion": "2023-02-22",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 4,
+    "dispositivo": "Tablet",
+    "tiempo_reproduccion": "15 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639785",
+    "id_visualizacion": "v39",
+    "id_titulo": "s39",
+    "fecha_visualizacion": "2023-02-23",
+    "pais_usuario": "Perú",
+    "calificacion_usuario": 3,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "96 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639786",
+    "id_visualizacion": "v40",
+    "id_titulo": "s40",
+    "fecha_visualizacion": "2023-02-24",
+    "pais_usuario": "México",
+    "calificacion_usuario": 5,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "20 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639787",
+    "id_visualizacion": "v41",
+    "id_titulo": "s41",
+    "fecha_visualizacion": "2023-02-25",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 4,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "24 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639788",
+    "id_visualizacion": "v42",
+    "id_titulo": "s42",
+    "fecha_visualizacion": "2023-02-26",
+    "pais_usuario": "Argentina",
+    "calificacion_usuario": 5,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "124 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639789",
+    "id_visualizacion": "v43",
+    "id_titulo": "s43",
+    "fecha_visualizacion": "2023-02-27",
+    "pais_usuario": "Chile",
+    "calificacion_usuario": 3,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "116 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463978a",
+    "id_visualizacion": "v44",
+    "id_titulo": "s44",
+    "fecha_visualizacion": "2023-02-28",
+    "pais_usuario": "México",
+    "calificacion_usuario": 2,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "98 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463978b",
+    "id_visualizacion": "v45",
+    "id_titulo": "s45",
+    "fecha_visualizacion": "2023-03-01",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 1,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "91 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463978c",
+    "id_visualizacion": "v46",
+    "id_titulo": "s46",
+    "fecha_visualizacion": "2023-03-02",
+    "pais_usuario": "Perú",
+    "calificacion_usuario": 5,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "23 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463978d",
+    "id_visualizacion": "v47",
+    "id_titulo": "s47",
+    "fecha_visualizacion": "2023-03-03",
+    "pais_usuario": "México",
+    "calificacion_usuario": 4,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "115 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463978e",
+    "id_visualizacion": "v48",
+    "id_titulo": "s48",
+    "fecha_visualizacion": "2023-03-04",
+    "pais_usuario": "Argentina",
+    "calificacion_usuario": 3,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "45 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463978f",
+    "id_visualizacion": "v49",
+    "id_titulo": "s49",
+    "fecha_visualizacion": "2023-03-05",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 5,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "122 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639790",
+    "id_visualizacion": "v50",
+    "id_titulo": "s50",
+    "fecha_visualizacion": "2023-03-06",
+    "pais_usuario": "Chile",
+    "calificacion_usuario": 4,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "50 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639791",
+    "id_visualizacion": "v51",
+    "id_titulo": "s51",
+    "fecha_visualizacion": "2023-03-07",
+    "pais_usuario": "Ecuador",
+    "calificacion_usuario": 4,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "40 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639792",
+    "id_visualizacion": "v52",
+    "id_titulo": "s52",
+    "fecha_visualizacion": "2023-03-08",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 5,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "99 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639793",
+    "id_visualizacion": "v53",
+    "id_titulo": "s53",
+    "fecha_visualizacion": "2023-03-09",
+    "pais_usuario": "México",
+    "calificacion_usuario": 5,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "99 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639794",
+    "id_visualizacion": "v54",
+    "id_titulo": "s54",
+    "fecha_visualizacion": "2023-03-10",
+    "pais_usuario": "Argentina",
+    "calificacion_usuario": 4,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "88 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639795",
+    "id_visualizacion": "v55",
+    "id_titulo": "s55",
+    "fecha_visualizacion": "2023-03-11",
+    "pais_usuario": "Chile",
+    "calificacion_usuario": 5,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "100 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639796",
+    "id_visualizacion": "v56",
+    "id_titulo": "s56",
+    "fecha_visualizacion": "2023-03-12",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 4,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "30 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639797",
+    "id_visualizacion": "v57",
+    "id_titulo": "s57",
+    "fecha_visualizacion": "2023-03-13",
+    "pais_usuario": "Perú",
+    "calificacion_usuario": 3,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "102 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639798",
+    "id_visualizacion": "v58",
+    "id_titulo": "s58",
+    "fecha_visualizacion": "2023-03-14",
+    "pais_usuario": "México",
+    "calificacion_usuario": 5,
+    "dispositivo": "Laptop",
+    "tiempo_reproduccion": "93 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc4639799",
+    "id_visualizacion": "v59",
+    "id_titulo": "s59",
+    "fecha_visualizacion": "2023-03-15",
+    "pais_usuario": "Argentina",
+    "calificacion_usuario": 4,
+    "dispositivo": "Mobile",
+    "tiempo_reproduccion": "96 min"
+  },
+  {
+    "_id": "6a21a859271fc16fc463979a",
+    "id_visualizacion": "v60",
+    "id_titulo": "s60",
+    "fecha_visualizacion": "2023-03-16",
+    "pais_usuario": "Colombia",
+    "calificacion_usuario": 5,
+    "dispositivo": "Smart TV",
+    "tiempo_reproduccion": "95 min"
+  }
+]

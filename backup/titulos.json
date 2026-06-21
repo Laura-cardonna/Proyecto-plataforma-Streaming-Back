@@ -1,0 +1,1536 @@
+[
+  {
+    "_id": "6a21a965271fc16fc463979f",
+    "id_titulo": "s1",
+    "tipo_contenido": "Película",
+    "titulo": "Dick Johnson Is Dead",
+    "director": "Kirsten Johnson",
+    "elenco": [
+      "Dick Johnson",
+      "Kirsten Johnson"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 25, 2021",
+    "anio_lanzamiento": 2020,
+    "clasificacion_edad": "PG-13",
+    "duracion": "90 min",
+    "generos": [
+      "Documentaries"
+    ],
+    "descripcion": "As her father nears the end of his life, filmmaker Kirsten Johnson stages his death in inventive and comical ways to help them both face the inevitable."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397a0",
+    "id_titulo": "s2",
+    "tipo_contenido": "Serie",
+    "titulo": "Blood & Water",
+    "director": "Nosipho Dumisa",
+    "elenco": [
+      "Ama Qamata",
+      "Khosi Ngema",
+      "Gail Mabalane",
+      "Thabang Molaba",
+      "Dillon Windvogel",
+      "Natasha Thahane"
+    ],
+    "pais_produccion": [
+      "South Africa"
+    ],
+    "fecha_agregado": "September 24, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "2 Seasons",
+    "generos": [
+      "International TV Shows",
+      "TV Dramas",
+      "TV Mysteries"
+    ],
+    "descripcion": "After crossing paths at a party, a Cape Town teen sets out to prove whether a private-school swimming star is her sister who was abducted at birth."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397a1",
+    "id_titulo": "s3",
+    "tipo_contenido": "Serie",
+    "titulo": "Ganglands",
+    "director": "Julien Leclercq",
+    "elenco": [
+      "Sami Bouajila",
+      "Tracy Gotoas",
+      "Samuel Jouy",
+      "Nabiha Akkari"
+    ],
+    "pais_produccion": [
+      "France",
+      "Belgium"
+    ],
+    "fecha_agregado": "September 24, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "1 Season",
+    "generos": [
+      "Crime TV Shows",
+      "International TV Shows"
+    ],
+    "descripcion": "To protect his family from a powerful drug lord, skilled thief Mehdi and his expert team of robbers are pulled into a violent and deadly turf war."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397a2",
+    "id_titulo": "s4",
+    "tipo_contenido": "Serie",
+    "titulo": "Jailbirds New Orleans",
+    "director": "Casting Director",
+    "elenco": [
+      "Inmates of Orleans Justice Center"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 24, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "1 Season",
+    "generos": [
+      "Docuseries",
+      "Reality TV"
+    ],
+    "descripcion": "Feuds, flirtations and toilet talk go down among the incarcerated women at the Orleans Justice Center in New Orleans on this gritty reality series."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397a3",
+    "id_titulo": "s5",
+    "tipo_contenido": "Serie",
+    "titulo": "Kota Factory",
+    "director": "Raghav Subbu",
+    "elenco": [
+      "Mayur More",
+      "Jitendra Kumar",
+      "Ranjan Raj",
+      "Alam Khan"
+    ],
+    "pais_produccion": [
+      "India"
+    ],
+    "fecha_agregado": "September 24, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "2 Seasons",
+    "generos": [
+      "International TV Shows",
+      "TV Comedies"
+    ],
+    "descripcion": "In a city of coaching centers known to train India's finest collegiate minds, an earnest but unexceptional student and his friends navigate campus life."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397a4",
+    "id_titulo": "s6",
+    "tipo_contenido": "Serie",
+    "titulo": "Midnight Mass",
+    "director": "Mike Flanagan",
+    "elenco": [
+      "Kate Siegel",
+      "Zach Gilford",
+      "Hamish Linklater",
+      "Henry Thomas"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 24, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "1 Season",
+    "generos": [
+      "TV Dramas",
+      "TV Horror",
+      "TV Mysteries"
+    ],
+    "descripcion": "The arrival of a charismatic young priest brings glorious miracles, ominous mysteries and renewed religious fervor to a dying town desperate to believe."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397a5",
+    "id_titulo": "s7",
+    "tipo_contenido": "Película",
+    "titulo": "My Little Pony: A New Generation",
+    "director": "Robert Cullen",
+    "elenco": [
+      "Vanessa Hudgens",
+      "Kimiko Glenn",
+      "James Marsden"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 24, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "PG",
+    "duracion": "91 min",
+    "generos": [
+      "Children & Family Movies"
+    ],
+    "descripcion": "Equestria's divided. But a bright-eyed hero believes Earth Ponies, Pegasi and Unicorns should be pals."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397a6",
+    "id_titulo": "s8",
+    "tipo_contenido": "Película",
+    "titulo": "Sankofa",
+    "director": "Haile Gerima",
+    "elenco": [
+      "Kofi Ghanaba",
+      "Oyafunmike Ogunlano",
+      "Alexandra Duah"
+    ],
+    "pais_produccion": [
+      "United States",
+      "Ghana"
+    ],
+    "fecha_agregado": "September 24, 2021",
+    "anio_lanzamiento": 1993,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "125 min",
+    "generos": [
+      "Dramas",
+      "Independent Movies",
+      "International Movies"
+    ],
+    "descripcion": "On a photo shoot in Ghana, an American model slips back in time and becomes enslaved on a plantation."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397a7",
+    "id_titulo": "s9",
+    "tipo_contenido": "Serie",
+    "titulo": "The Great British Baking Show",
+    "director": "Andy Devonshire",
+    "elenco": [
+      "Mel Giedroyc",
+      "Sue Perkins",
+      "Mary Berry",
+      "Paul Hollywood"
+    ],
+    "pais_produccion": [
+      "United Kingdom"
+    ],
+    "fecha_agregado": "September 24, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-14",
+    "duracion": "9 Seasons",
+    "generos": [
+      "British TV Shows",
+      "Reality TV"
+    ],
+    "descripcion": "A talented batch of amateur bakers face off in a 10-week competition, whipping up their best dishes."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397a8",
+    "id_titulo": "s10",
+    "tipo_contenido": "Película",
+    "titulo": "The Starling",
+    "director": "Theodore Melfi",
+    "elenco": [
+      "Melissa McCarthy",
+      "Chris O'Dowd",
+      "Kevin Kline"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 24, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "PG-13",
+    "duracion": "104 min",
+    "generos": [
+      "Comedies",
+      "Dramas"
+    ],
+    "descripcion": "A woman adjusting to life after a loss contends with a feisty bird that's taken over her garden."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397a9",
+    "id_titulo": "s11",
+    "tipo_contenido": "Serie",
+    "titulo": "Vendetta: Truth, Lies and The Mafia",
+    "director": "Cosimi Messeri",
+    "elenco": [
+      "Pino Maniaci",
+      "Silvana Saguto"
+    ],
+    "pais_produccion": [
+      "Italy"
+    ],
+    "fecha_agregado": "September 24, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "1 Season",
+    "generos": [
+      "Crime TV Shows",
+      "Docuseries"
+    ],
+    "descripcion": "Sicily boasts a bold anti-Mafia coalition. But what happens when those trying to bring down organized crime are accused of being criminals?"
+  },
+  {
+    "_id": "6a21a965271fc16fc46397aa",
+    "id_titulo": "s12",
+    "tipo_contenido": "Serie",
+    "titulo": "Bangkok Breaking",
+    "director": "Kongkiat Komesiri",
+    "elenco": [
+      "Sukollawat Kanarot",
+      "Sushar Manaying"
+    ],
+    "pais_produccion": [
+      "Thailand"
+    ],
+    "fecha_agregado": "September 23, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "1 Season",
+    "generos": [
+      "Crime TV Shows",
+      "International TV Shows"
+    ],
+    "descripcion": "Struggling to earn a living in Bangkok, a man joins an emergency rescue service and unravels a conspiracy."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397ab",
+    "id_titulo": "s13",
+    "tipo_contenido": "Película",
+    "titulo": "Je Suis Karl",
+    "director": "Christian Schwochow",
+    "elenco": [
+      "Luna Wedler",
+      "Jannis Niewöhner",
+      "Milan Peschel"
+    ],
+    "pais_produccion": [
+      "Germany"
+    ],
+    "fecha_agregado": "September 23, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "127 min",
+    "generos": [
+      "Dramas",
+      "International Movies"
+    ],
+    "descripcion": "After most of her family is murdered, a young woman is unknowingly lured into joining the group that killed them."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397ac",
+    "id_titulo": "s14",
+    "tipo_contenido": "Película",
+    "titulo": "Confessions of an Invisible Girl",
+    "director": "Bruno Garotti",
+    "elenco": [
+      "Klara Castanho",
+      "Lucca Picon",
+      "Júlia Gomes"
+    ],
+    "pais_produccion": [
+      "Brazil"
+    ],
+    "fecha_agregado": "September 22, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "91 min",
+    "generos": [
+      "Children & Family Movies",
+      "Comedies"
+    ],
+    "descripcion": "When the clever but socially-awkward Tetê joins a new school, she'll do anything to fit in."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397ad",
+    "id_titulo": "s15",
+    "tipo_contenido": "Serie",
+    "titulo": "Crime Stories: India Detectives",
+    "director": "Nanda Kishore",
+    "elenco": [
+      "Bangalore Police Force"
+    ],
+    "pais_produccion": [
+      "India"
+    ],
+    "fecha_agregado": "September 22, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "1 Season",
+    "generos": [
+      "Crime TV Shows",
+      "Docuseries"
+    ],
+    "descripcion": "Cameras following Bengaluru police on the job offer a rare glimpse into the inner workings of four major investigations."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397ae",
+    "id_titulo": "s16",
+    "tipo_contenido": "Serie",
+    "titulo": "Dear White People",
+    "director": "Justin Simien",
+    "elenco": [
+      "Logan Browning",
+      "Brandon P. Bell",
+      "DeRon Horton"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 22, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "4 Seasons",
+    "generos": [
+      "TV Comedies",
+      "TV Dramas"
+    ],
+    "descripcion": "Students of color navigate the daily slights and slippery politics of life at an Ivy League college."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397af",
+    "id_titulo": "s17",
+    "tipo_contenido": "Película",
+    "titulo": "Europe's Most Dangerous Man: Otto Skorzeny in Spain",
+    "director": "Pedro de Echave García",
+    "elenco": [
+      "Otto Skorzeny"
+    ],
+    "pais_produccion": [
+      "Spain",
+      "Germany"
+    ],
+    "fecha_agregado": "September 22, 2021",
+    "anio_lanzamiento": 2020,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "67 min",
+    "generos": [
+      "Documentaries"
+    ],
+    "descripcion": "Declassified documents reveal the post-WWII life of Otto Skorzeny, a close Hitler ally who escaped to Spain."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397b0",
+    "id_titulo": "s18",
+    "tipo_contenido": "Serie",
+    "titulo": "Falsa identidad",
+    "director": "Diego Ramón Bravo",
+    "elenco": [
+      "Luis Ernesto Franco",
+      "Camila Sodi",
+      "Sergio Goyri"
+    ],
+    "pais_produccion": [
+      "Mexico"
+    ],
+    "fecha_agregado": "September 22, 2021",
+    "anio_lanzamiento": 2020,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "2 Seasons",
+    "generos": [
+      "Crime TV Shows",
+      "Spanish-Language TV Shows"
+    ],
+    "descripcion": "Strangers Diego and Isabel flee their home in Mexico and pretend to be a married couple to escape enemies."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397b1",
+    "id_titulo": "s19",
+    "tipo_contenido": "Película",
+    "titulo": "Intrusion",
+    "director": "Adam Salky",
+    "elenco": [
+      "Freida Pinto",
+      "Logan Marshall-Green"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 22, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-14",
+    "duracion": "94 min",
+    "generos": [
+      "Thrillers"
+    ],
+    "descripcion": "After a deadly home invasion, the traumatized wife searches for answers — and learns the real danger is beginning."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397b2",
+    "id_titulo": "s20",
+    "tipo_contenido": "Serie",
+    "titulo": "Jaguar",
+    "director": "Carlos Sedes",
+    "elenco": [
+      "Blanca Suárez",
+      "Iván Marcos",
+      "Óscar Casas"
+    ],
+    "pais_produccion": [
+      "Spain"
+    ],
+    "fecha_agregado": "September 22, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "1 Season",
+    "generos": [
+      "International TV Shows",
+      "Spanish-Language TV Shows"
+    ],
+    "descripcion": "In the 1960s, a Holocaust survivor joins a group of spies who seek justice against Nazis fleeing to Spain."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397b3",
+    "id_titulo": "s21",
+    "tipo_contenido": "Serie",
+    "titulo": "Monsters Inside",
+    "director": "Olivier Megaton",
+    "elenco": [
+      "Billy Milligan"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 22, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-14",
+    "duracion": "1 Season",
+    "generos": [
+      "Crime TV Shows",
+      "Docuseries"
+    ],
+    "descripcion": "In the late 1970s, an accused serial rapist claims multiple personalities control his behavior."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397b4",
+    "id_titulo": "s22",
+    "tipo_contenido": "Serie",
+    "titulo": "Resurrection: Ertugrul",
+    "director": "Metin Günay",
+    "elenco": [
+      "Engin Altan Düzyatan",
+      "Serdar Gökhan"
+    ],
+    "pais_produccion": [
+      "Turkey"
+    ],
+    "fecha_agregado": "September 22, 2021",
+    "anio_lanzamiento": 2018,
+    "clasificacion_edad": "TV-14",
+    "duracion": "5 Seasons",
+    "generos": [
+      "International TV Shows",
+      "TV Dramas"
+    ],
+    "descripcion": "A 13th-century Turkish warrior agrees to fight a sultan's enemies in exchange for new tribal land."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397b5",
+    "id_titulo": "s23",
+    "tipo_contenido": "Película",
+    "titulo": "Avvai Shanmughi",
+    "director": "K.S. Ravikumar",
+    "elenco": [
+      "Kamal Hassan",
+      "Meena"
+    ],
+    "pais_produccion": [
+      "India"
+    ],
+    "fecha_agregado": "September 21, 2021",
+    "anio_lanzamiento": 1996,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "161 min",
+    "generos": [
+      "Comedies",
+      "International Movies"
+    ],
+    "descripcion": "A doting father disguises himself as a gray-haired nanny in order to spend time with his daughter."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397b6",
+    "id_titulo": "s24",
+    "tipo_contenido": "Película",
+    "titulo": "Go! Go! Cory Carson",
+    "director": "Alex Woo",
+    "elenco": [
+      "Maisie Benson",
+      "Paul Killam"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 21, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-Y",
+    "duracion": "61 min",
+    "generos": [
+      "Children & Family Movies"
+    ],
+    "descripcion": "Cory Carson's curious little sister Chrissy speeds off on her own for fun and adventure!"
+  },
+  {
+    "_id": "6a21a965271fc16fc46397b7",
+    "id_titulo": "s25",
+    "tipo_contenido": "Película",
+    "titulo": "Jeans",
+    "director": "S. Shankar",
+    "elenco": [
+      "Prashanth",
+      "Aishwarya Rai Bachchan"
+    ],
+    "pais_produccion": [
+      "India"
+    ],
+    "fecha_agregado": "September 21, 2021",
+    "anio_lanzamiento": 1998,
+    "clasificacion_edad": "TV-14",
+    "duracion": "166 min",
+    "generos": [
+      "Comedies",
+      "International Movies"
+    ],
+    "descripcion": "A woman creates an alter ego that might be a bit too convincing when she falls in love."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397b8",
+    "id_titulo": "s26",
+    "tipo_contenido": "Serie",
+    "titulo": "Love on the Spectrum",
+    "director": "Cian O'Clery",
+    "elenco": [
+      "Brooke Satchwell"
+    ],
+    "pais_produccion": [
+      "Australia"
+    ],
+    "fecha_agregado": "September 21, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-14",
+    "duracion": "2 Seasons",
+    "generos": [
+      "Docuseries",
+      "Reality TV"
+    ],
+    "descripcion": "Finding love can be hard. For young adults on the autism spectrum, dating is even more complicated."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397b9",
+    "id_titulo": "s27",
+    "tipo_contenido": "Película",
+    "titulo": "Minsara Kanavu",
+    "director": "Rajiv Menon",
+    "elenco": [
+      "Arvind Swamy",
+      "Kajol"
+    ],
+    "pais_produccion": [
+      "India"
+    ],
+    "fecha_agregado": "September 21, 2021",
+    "anio_lanzamiento": 1997,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "147 min",
+    "generos": [
+      "International Movies",
+      "Music & Musicals"
+    ],
+    "descripcion": "A tangled love triangle ensues when a man falls for a woman studying to become a nun."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397ba",
+    "id_titulo": "s28",
+    "tipo_contenido": "Película",
+    "titulo": "Grown Ups",
+    "director": "Dennis Dugan",
+    "elenco": [
+      "Adam Sandler",
+      "Kevin James",
+      "Chris Rock"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 20, 2021",
+    "anio_lanzamiento": 2010,
+    "clasificacion_edad": "PG-13",
+    "duracion": "103 min",
+    "generos": [
+      "Comedies"
+    ],
+    "descripcion": "Five middle-aged pals reunite at a lake house and rediscover the joys of being a kid."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397bb",
+    "id_titulo": "s29",
+    "tipo_contenido": "Película",
+    "titulo": "Dark Skies",
+    "director": "Scott Stewart",
+    "elenco": [
+      "Keri Russell",
+      "Josh Hamilton"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 19, 2021",
+    "anio_lanzamiento": 2013,
+    "clasificacion_edad": "PG-13",
+    "duracion": "97 min",
+    "generos": [
+      "Horror Movies",
+      "Sci-Fi & Fantasy"
+    ],
+    "descripcion": "A family's idyllic suburban life shatters when an alien force invades their home."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397bc",
+    "id_titulo": "s30",
+    "tipo_contenido": "Película",
+    "titulo": "Paranoia",
+    "director": "Robert Luketic",
+    "elenco": [
+      "Liam Hemsworth",
+      "Gary Oldman",
+      "Harrison Ford"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 19, 2021",
+    "anio_lanzamiento": 2013,
+    "clasificacion_edad": "PG-13",
+    "duracion": "106 min",
+    "generos": [
+      "Thrillers"
+    ],
+    "descripcion": "Blackmailed by his CEO, a low-level employee is forced to spy on the boss's rival."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397bd",
+    "id_titulo": "s31",
+    "tipo_contenido": "Película",
+    "titulo": "Ankahi Kahaniya",
+    "director": "Ashwiny Iyer Tiwari",
+    "elenco": [
+      "Abhishek Banerjee",
+      "Rinku Rajguru"
+    ],
+    "pais_produccion": [
+      "India"
+    ],
+    "fecha_agregado": "September 17, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-14",
+    "duracion": "111 min",
+    "generos": [
+      "Dramas",
+      "International Movies"
+    ],
+    "descripcion": "Lonely souls discover surprising sources of connection in three tales of love and longing."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397be",
+    "id_titulo": "s32",
+    "tipo_contenido": "Serie",
+    "titulo": "Chicago Party Aunt",
+    "director": "Jon Barinholtz",
+    "elenco": [
+      "Lauren Ash",
+      "Rory O'Malley"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 17, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "1 Season",
+    "generos": [
+      "TV Comedies"
+    ],
+    "descripcion": "Diane is an idolized troublemaker with a talent for avoiding adulthood and a soft spot for her nephew."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397bf",
+    "id_titulo": "s33",
+    "tipo_contenido": "Serie",
+    "titulo": "Sex Education",
+    "director": "Ben Taylor",
+    "elenco": [
+      "Asa Butterfield",
+      "Gillian Anderson",
+      "Emma Mackey"
+    ],
+    "pais_produccion": [
+      "United Kingdom"
+    ],
+    "fecha_agregado": "September 17, 2021",
+    "anio_lanzamiento": 2020,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "3 Seasons",
+    "generos": [
+      "British TV Shows",
+      "TV Comedies"
+    ],
+    "descripcion": "Insecure Otis has all the answers when it comes to sex advice, thanks to his therapist mom."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397c0",
+    "id_titulo": "s34",
+    "tipo_contenido": "Serie",
+    "titulo": "Squid Game",
+    "director": "Hwang Dong-hyuk",
+    "elenco": [
+      "Lee Jung-jae",
+      "Park Hae-soo",
+      "Jung Ho-yeon"
+    ],
+    "pais_produccion": [
+      "South Korea"
+    ],
+    "fecha_agregado": "September 17, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "1 Season",
+    "generos": [
+      "International TV Shows",
+      "TV Thrillers"
+    ],
+    "descripcion": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397c1",
+    "id_titulo": "s35",
+    "tipo_contenido": "Serie",
+    "titulo": "Tayo and Little Wizards",
+    "director": "Ryu Jung-woo",
+    "elenco": [
+      "Dami Lee",
+      "Jason Lee"
+    ],
+    "pais_produccion": [
+      "South Korea"
+    ],
+    "fecha_agregado": "September 17, 2021",
+    "anio_lanzamiento": 2020,
+    "clasificacion_edad": "TV-Y7",
+    "duracion": "1 Season",
+    "generos": [
+      "Kids' TV"
+    ],
+    "descripcion": "Tayo speeds into an adventure when his friends get kidnapped by evil magicians."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397c2",
+    "id_titulo": "s36",
+    "tipo_contenido": "Película",
+    "titulo": "The Father Who Moves Mountains",
+    "director": "Daniel Sandu",
+    "elenco": [
+      "Adrian Titieni",
+      "Elena Purea"
+    ],
+    "pais_produccion": [
+      "Romania"
+    ],
+    "fecha_agregado": "September 17, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "110 min",
+    "generos": [
+      "International Movies",
+      "Thrillers"
+    ],
+    "descripcion": "When his son goes missing during a hike, a retired officer will stop at nothing to find him."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397c3",
+    "id_titulo": "s37",
+    "tipo_contenido": "Película",
+    "titulo": "The Stronghold",
+    "director": "Cédric Jimenez",
+    "elenco": [
+      "Gilles Lellouche",
+      "Karim Leklou"
+    ],
+    "pais_produccion": [
+      "France"
+    ],
+    "fecha_agregado": "September 17, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "105 min",
+    "generos": [
+      "Action & Adventure",
+      "International Movies"
+    ],
+    "descripcion": "Three Marseille cops get a chance to bust a major drug network, but lines blur with an informant."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397c4",
+    "id_titulo": "s38",
+    "tipo_contenido": "Serie",
+    "titulo": "Angry Birds",
+    "director": "Kim Helminen",
+    "elenco": [
+      "Antti Pääkkönen",
+      "Heljä Heikkinen"
+    ],
+    "pais_produccion": [
+      "Finland"
+    ],
+    "fecha_agregado": "September 16, 2021",
+    "anio_lanzamiento": 2018,
+    "clasificacion_edad": "TV-Y7",
+    "duracion": "1 Season",
+    "generos": [
+      "Kids' TV",
+      "TV Comedies"
+    ],
+    "descripcion": "Birds Red and Chuck have adventures while guarding eggs from pesky pigs."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397c5",
+    "id_titulo": "s39",
+    "tipo_contenido": "Película",
+    "titulo": "Birth of the Dragon",
+    "director": "George Nolfi",
+    "elenco": [
+      "Billy Magnussen",
+      "Ron Yuan",
+      "Philip Ng"
+    ],
+    "pais_produccion": [
+      "China",
+      "United States"
+    ],
+    "fecha_agregado": "September 16, 2021",
+    "anio_lanzamiento": 2017,
+    "clasificacion_edad": "PG-13",
+    "duracion": "96 min",
+    "generos": [
+      "Action & Adventure",
+      "Dramas"
+    ],
+    "descripcion": "A young Bruce Lee angers kung fu traditionalists by teaching outsiders."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397c6",
+    "id_titulo": "s40",
+    "tipo_contenido": "Serie",
+    "titulo": "Chhota Bheem",
+    "director": "Rajiv Chilaka",
+    "elenco": [
+      "Vatsal Dubey",
+      "Julie Tejwani"
+    ],
+    "pais_produccion": [
+      "India"
+    ],
+    "fecha_agregado": "September 16, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-Y7",
+    "duracion": "3 Seasons",
+    "generos": [
+      "Kids' TV"
+    ],
+    "descripcion": "A brave little boy with superhuman powers leads his friends on exciting adventures."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397c7",
+    "id_titulo": "s41",
+    "tipo_contenido": "Serie",
+    "titulo": "He-Man and the Masters of the Universe",
+    "director": "Rob David",
+    "elenco": [
+      "Yuri Lowenthal",
+      "Kimberly Brooks"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 16, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-Y7",
+    "duracion": "1 Season",
+    "generos": [
+      "Kids' TV",
+      "TV Sci-Fi & Fantasy"
+    ],
+    "descripcion": "Mighty teen Adam and his squad discover the legendary power of Grayskull."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397c8",
+    "id_titulo": "s42",
+    "tipo_contenido": "Película",
+    "titulo": "Jaws",
+    "director": "Steven Spielberg",
+    "elenco": [
+      "Roy Scheider",
+      "Robert Shaw",
+      "Richard Dreyfuss"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 16, 2021",
+    "anio_lanzamiento": 1975,
+    "clasificacion_edad": "PG",
+    "duracion": "124 min",
+    "generos": [
+      "Action & Adventure",
+      "Classic Movies"
+    ],
+    "descripcion": "When an insatiable great white shark terrorizes an island, a team seeks to destroy the beast."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397c9",
+    "id_titulo": "s43",
+    "tipo_contenido": "Película",
+    "titulo": "Jaws 2",
+    "director": "Jeannot Szwarc",
+    "elenco": [
+      "Roy Scheider",
+      "Lorraine Gary"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 16, 2021",
+    "anio_lanzamiento": 1978,
+    "clasificacion_edad": "PG",
+    "duracion": "116 min",
+    "generos": [
+      "Horror Movies",
+      "Thrillers"
+    ],
+    "descripcion": "Police chief Martin Brody fights to protect Amity Island from another killer great white."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397ca",
+    "id_titulo": "s44",
+    "tipo_contenido": "Película",
+    "titulo": "Jaws 3",
+    "director": "Joe Alves",
+    "elenco": [
+      "Dennis Quaid",
+      "Bess Armstrong"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 16, 2021",
+    "anio_lanzamiento": 1983,
+    "clasificacion_edad": "PG",
+    "duracion": "98 min",
+    "generos": [
+      "Action & Adventure",
+      "Horror Movies"
+    ],
+    "descripcion": "A marine theme park discovers a great white shark has invaded their enclosure."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397cb",
+    "id_titulo": "s45",
+    "tipo_contenido": "Película",
+    "titulo": "Jaws: The Revenge",
+    "director": "Joseph Sargent",
+    "elenco": [
+      "Lorraine Gary",
+      "Lance Guest",
+      "Michael Caine"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 16, 2021",
+    "anio_lanzamiento": 1987,
+    "clasificacion_edad": "PG-13",
+    "duracion": "91 min",
+    "generos": [
+      "Action & Adventure",
+      "Horror Movies"
+    ],
+    "descripcion": "Ellen Brody moves to the Caribbean – but a great white shark follows her there."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397cc",
+    "id_titulo": "s46",
+    "tipo_contenido": "Película",
+    "titulo": "My Heroes Were Cowboys",
+    "director": "Tyler Greco",
+    "elenco": [
+      "Robin Wiltshire"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 16, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "PG",
+    "duracion": "23 min",
+    "generos": [
+      "Documentaries"
+    ],
+    "descripcion": "Robin Wiltshire training the horses he loves for the big screen."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397cd",
+    "id_titulo": "s47",
+    "tipo_contenido": "Película",
+    "titulo": "Safe House",
+    "director": "Daniel Espinosa",
+    "elenco": [
+      "Denzel Washington",
+      "Ryan Reynolds"
+    ],
+    "pais_produccion": [
+      "United States",
+      "South Africa"
+    ],
+    "fecha_agregado": "September 16, 2021",
+    "anio_lanzamiento": 2012,
+    "clasificacion_edad": "R",
+    "duracion": "115 min",
+    "generos": [
+      "Action & Adventure",
+      "Thrillers"
+    ],
+    "descripcion": "A CIA operative must get a dangerous criminal out of a safe house under attack."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397ce",
+    "id_titulo": "s48",
+    "tipo_contenido": "Serie",
+    "titulo": "The Smart Money Woman",
+    "director": "Bunmi Ajakaiye",
+    "elenco": [
+      "Osas Ighodaro",
+      "Ini Dima-Okojie"
+    ],
+    "pais_produccion": [
+      "Nigeria"
+    ],
+    "fecha_agregado": "September 16, 2021",
+    "anio_lanzamiento": 2020,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "1 Season",
+    "generos": [
+      "International TV Shows",
+      "TV Comedies"
+    ],
+    "descripcion": "Five millennials strive for success as they juggle careers, finances and love."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397cf",
+    "id_titulo": "s49",
+    "tipo_contenido": "Película",
+    "titulo": "Training Day",
+    "director": "Antoine Fuqua",
+    "elenco": [
+      "Denzel Washington",
+      "Ethan Hawke"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 16, 2021",
+    "anio_lanzamiento": 2001,
+    "clasificacion_edad": "R",
+    "duracion": "122 min",
+    "generos": [
+      "Dramas",
+      "Thrillers"
+    ],
+    "descripcion": "A rookie cop has one day to prove himself to a veteran LAPD narcotics officer."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397d0",
+    "id_titulo": "s50",
+    "tipo_contenido": "Serie",
+    "titulo": "Castle and Castle",
+    "director": "Tope Oshin",
+    "elenco": [
+      "Richard Mofe-Damijo",
+      "Dakore Akande"
+    ],
+    "pais_produccion": [
+      "Nigeria"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-MA",
+    "duracion": "2 Seasons",
+    "generos": [
+      "International TV Shows",
+      "TV Dramas"
+    ],
+    "descripcion": "A pair of high-powered lawyers find themselves defending opposite interests."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397d1",
+    "id_titulo": "s51",
+    "tipo_contenido": "Serie",
+    "titulo": "Dharmakshetra",
+    "director": "Vaibhav Modi",
+    "elenco": [
+      "Kashmira Irani",
+      "Chandan Anand"
+    ],
+    "pais_produccion": [
+      "India"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2014,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "1 Season",
+    "generos": [
+      "International TV Shows",
+      "TV Dramas"
+    ],
+    "descripcion": "After the ancient Great War, a god oversees a trial to determine the true heroes."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397d2",
+    "id_titulo": "s52",
+    "tipo_contenido": "Película",
+    "titulo": "InuYasha: The Castle Beyond the Looking Glass",
+    "director": "Toshiya Shinohara",
+    "elenco": [
+      "Kappei Yamaguchi",
+      "Satsuki Yukino"
+    ],
+    "pais_produccion": [
+      "Japan"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2002,
+    "clasificacion_edad": "TV-14",
+    "duracion": "99 min",
+    "generos": [
+      "Action & Adventure",
+      "Anime Features"
+    ],
+    "descripcion": "InuYasha and his friends return to everyday life until peace is shattered."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397d3",
+    "id_titulo": "s53",
+    "tipo_contenido": "Película",
+    "titulo": "InuYasha: Swords of an Honorable Ruler",
+    "director": "Toshiya Shinohara",
+    "elenco": [
+      "Kappei Yamaguchi",
+      "Satsuki Yukino"
+    ],
+    "pais_produccion": [
+      "Japan"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2003,
+    "clasificacion_edad": "TV-14",
+    "duracion": "99 min",
+    "generos": [
+      "Action & Adventure",
+      "Anime Features"
+    ],
+    "descripcion": "The evil power of the third sword of the Dog Demon has been awakened."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397d4",
+    "id_titulo": "s54",
+    "tipo_contenido": "Película",
+    "titulo": "InuYasha: Fire on the Mystic Island",
+    "director": "Toshiya Shinohara",
+    "elenco": [
+      "Kappei Yamaguchi",
+      "Satsuki Yukino"
+    ],
+    "pais_produccion": [
+      "Japan"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2004,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "88 min",
+    "generos": [
+      "Action & Adventure",
+      "Anime Features"
+    ],
+    "descripcion": "A young half-demon escapes Horai Island to try to help her people."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397d5",
+    "id_titulo": "s55",
+    "tipo_contenido": "Película",
+    "titulo": "InuYasha: Affections Touching Across Time",
+    "director": "Toshiya Shinohara",
+    "elenco": [
+      "Kappei Yamaguchi",
+      "Satsuki Yukino"
+    ],
+    "pais_produccion": [
+      "Japan"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2001,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "100 min",
+    "generos": [
+      "Action & Adventure",
+      "Anime Features"
+    ],
+    "descripcion": "When a demon's son is awakened, the fate of the world is in jeopardy."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397d6",
+    "id_titulo": "s56",
+    "tipo_contenido": "Serie",
+    "titulo": "Nailed It",
+    "director": "Nicole Byer",
+    "elenco": [
+      "Nicole Byer",
+      "Jacques Torres"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "6 Seasons",
+    "generos": [
+      "Reality TV"
+    ],
+    "descripcion": "Home bakers with a terrible track record take a crack at re-creating masterpieces."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397d7",
+    "id_titulo": "s57",
+    "tipo_contenido": "Película",
+    "titulo": "Naruto Shippuden: Blood Prison",
+    "director": "Masahiko Murata",
+    "elenco": [
+      "Junko Takeuchi",
+      "Chie Nakamura"
+    ],
+    "pais_produccion": [
+      "Japan"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2011,
+    "clasificacion_edad": "TV-14",
+    "duracion": "102 min",
+    "generos": [
+      "Action & Adventure",
+      "Anime Features"
+    ],
+    "descripcion": "Accused of an attack on the Raikage, Naruto is imprisoned in Hozuki Castle."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397d8",
+    "id_titulo": "s58",
+    "tipo_contenido": "Película",
+    "titulo": "Naruto Shippûden: Bonds",
+    "director": "Hajime Kamegaki",
+    "elenco": [
+      "Junko Takeuchi",
+      "Noriaki Sugiyama"
+    ],
+    "pais_produccion": [
+      "Japan"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2008,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "93 min",
+    "generos": [
+      "Action & Adventure",
+      "Anime Features"
+    ],
+    "descripcion": "Strange ninjas ambush the village of Konohagakure."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397d9",
+    "id_titulo": "s59",
+    "tipo_contenido": "Película",
+    "titulo": "Naruto Shippûden: The Will of Fire",
+    "director": "Masahiko Murata",
+    "elenco": [
+      "Junko Takeuchi",
+      "Chie Nakamura"
+    ],
+    "pais_produccion": [
+      "Japan"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2009,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "96 min",
+    "generos": [
+      "Action & Adventure",
+      "Anime Features"
+    ],
+    "descripcion": "When four ninja villages are destroyed, the leader of the one spared finds the culprit."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397da",
+    "id_titulo": "s60",
+    "tipo_contenido": "Película",
+    "titulo": "Naruto Shippuden: The Movie",
+    "director": "Hajime Kamegaki",
+    "elenco": [
+      "Junko Takeuchi",
+      "Chie Nakamura"
+    ],
+    "pais_produccion": [
+      "Japan"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2007,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "95 min",
+    "generos": [
+      "Action & Adventure",
+      "Anime Features"
+    ],
+    "descripcion": "Naruto is tasked with protecting a priestess from a demon."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397db",
+    "id_titulo": "s61",
+    "tipo_contenido": "Película",
+    "titulo": "Naruto Shippuden: The Lost Tower",
+    "director": "Masahiko Murata",
+    "elenco": [
+      "Junko Takeuchi",
+      "Chie Nakamura"
+    ],
+    "pais_produccion": [
+      "Japan"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2010,
+    "clasificacion_edad": "TV-14",
+    "duracion": "85 min",
+    "generos": [
+      "Action & Adventure",
+      "Anime Features"
+    ],
+    "descripcion": "Naruto is sent 20 years into the past, where he unites with his father."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397dc",
+    "id_titulo": "s62",
+    "tipo_contenido": "Película",
+    "titulo": "Naruto: Legend of the Stone of Gelel",
+    "director": "Hirotsugu Kawasaki",
+    "elenco": [
+      "Junko Takeuchi",
+      "Chie Nakamura"
+    ],
+    "pais_produccion": [
+      "Japan"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2005,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "97 min",
+    "generos": [
+      "Action & Adventure",
+      "Anime Features"
+    ],
+    "descripcion": "Naruto and his fellows are ambushed by knights led by Temujin."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397dd",
+    "id_titulo": "s63",
+    "tipo_contenido": "Película",
+    "titulo": "Naruto: Guardians of the Crescent Moon Kingdom",
+    "director": "Toshiyuki Tsuru",
+    "elenco": [
+      "Junko Takeuchi",
+      "Chie Nakamura"
+    ],
+    "pais_produccion": [
+      "Japan"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2006,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "95 min",
+    "generos": [
+      "Action & Adventure",
+      "Anime Features"
+    ],
+    "descripcion": "Naruto teams up with Sakura and Kakashi to escort Prince Michiru."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397de",
+    "id_titulo": "s64",
+    "tipo_contenido": "Película",
+    "titulo": "Naruto: Ninja Clash in the Land of Snow",
+    "director": "Tensai Okamura",
+    "elenco": [
+      "Junko Takeuchi",
+      "Noriaki Sugiyama"
+    ],
+    "pais_produccion": [
+      "Japan"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2004,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "83 min",
+    "generos": [
+      "Action & Adventure",
+      "Anime Features"
+    ],
+    "descripcion": "Naruto, Sasuke and Sakura are protecting an actress while making a film."
+  },
+  {
+    "_id": "6a21a965271fc16fc46397df",
+    "id_titulo": "s65",
+    "tipo_contenido": "Película",
+    "titulo": "Nightbooks",
+    "director": "David Yarovesky",
+    "elenco": [
+      "Winslow Fegley",
+      "Krysten Ritter"
+    ],
+    "pais_produccion": [
+      "United States"
+    ],
+    "fecha_agregado": "September 15, 2021",
+    "anio_lanzamiento": 2021,
+    "clasificacion_edad": "TV-PG",
+    "duracion": "103 min",
+    "generos": [
+      "Children & Family Movies"
+    ],
+    "descripcion": "Scary story fan Alex must tell a spine-tingling tale every night to stay alive."
+  },
+  {
+    "_id": "6a21ce0b5d4677decc1f1b39",
+    "id_titulo": "s108",
+    "titulo": "Prueba",
+    "director": "Lauraa",
+    "elenco": [],
+    "anio_lanzamiento": 2026,
+    "generos": [
+      "lalalal"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "6a22658a36d91ea7876c65a7",
+    "id_titulo": "s106",
+    "tipo_contenido": "Serie",
+    "titulo": "Prueba",
+    "director": "Laura",
+    "elenco": [],
+    "anio_lanzamiento": 2026,
+    "generos": [],
+    "__v": 0
+  }
+]

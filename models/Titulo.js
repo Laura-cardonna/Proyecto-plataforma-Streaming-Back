@@ -12,7 +12,8 @@ const tituloSchema = new mongoose.Schema({
     clasificacion_edad: { type: String },
     duracion: { type: String },
     generos: { type: Array },
-    descripcion: { type: String }
+    descripcion: { type: String },
+    imagen: { type: String } // URL del póster de la película/serie
 });
 
 // La clave es que este nombre 'tituloSchema' coincida con el de arriba
