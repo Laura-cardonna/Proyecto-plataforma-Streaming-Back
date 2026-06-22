@@ -3,7 +3,75 @@
 Este proyecto es una API REST construida con **Node.js**, **Express** y **MongoDB Atlas** para gestionar un catálogo de títulos y el historial de visualizaciones.
 
 ## 🚀 Configuración del Entorno
-El servidor corre por defecto en: `http://localhost:5000`
+
+### Requisitos previos
+* [Node.js](https://nodejs.org/) 18 o superior (incluye `npm`).
+* Una base de datos MongoDB: **local** (`mongodb://localhost:27017`) o en la nube con **MongoDB Atlas**.
+
+### Pasos de instalación
+
+1. **Clonar el repositorio y entrar a la carpeta**
+   ```bash
+   git clone https://github.com/Laura-cardonna/Proyecto-plataforma-Streaming-Back.git
+   cd Proyecto-plataforma-Streaming-Back
+   ```
+
+2. **Instalar las dependencias**
+   ```bash
+   npm install
+   ```
+
+3. **Configurar las variables de entorno**
+
+   Copia el archivo de ejemplo y rellénalo con tus valores:
+   ```bash
+   cp .env.example .env      # en Windows (PowerShell): copy .env.example .env
+   ```
+   Edita el `.env` y define:
+   | Variable    | Descripción                                         | Ejemplo                                  |
+   |-------------|-----------------------------------------------------|------------------------------------------|
+   | `PORT`      | Puerto donde corre el backend                       | `5000`                                   |
+   | `MONGO_URI` | Cadena de conexión a MongoDB (local o Atlas)        | `mongodb://localhost:27017/StreamingProject` |
+
+   > ⚠️ El archivo `.env` contiene credenciales y **no se sube al repositorio** (está en `.gitignore`). Solo se versiona `.env.example`.
+
+4. **Levantar el servidor**
+   ```bash
+   npm start
+   ```
+   El servidor corre por defecto en: `http://localhost:5000`
+   Para comprobar que está vivo, abre `http://localhost:5000/` o `http://localhost:5000/api/titulos`.
+
+### 📜 Scripts disponibles (`npm run ...`)
+
+| Comando                   | Qué hace                                                                 |
+|---------------------------|-------------------------------------------------------------------------|
+| `npm start`               | Inicia el servidor de la API (`index.js`).                              |
+| `npm run seed`            | Inserta datos de prueba masivos por lotes. Ej: `node seed.js 100000`.   |
+| `npm run regenerar`       | Ajusta la BD a un total exacto de documentos conservando los reales.    |
+| `npm run diagnostico`     | Muestra totales por colección y cuántos son datos de prueba (seed).     |
+| `npm run migrar:exportar` | Exporta las colecciones de Atlas a archivos JSON en `./backup`.         |
+| `npm run migrar:importar` | Importa los JSON de `./backup` a una MongoDB local.                     |
+
+### 🗂️ Estructura del proyecto
+
+```
+.
+├── index.js              # Punto de entrada: configura Express, CORS y la conexión a MongoDB
+├── models/               # Esquemas de Mongoose
+│   ├── Titulo.js         #   - Catálogo de títulos (películas/series)
+│   └── Visualizacion.js  #   - Historial de visualizaciones
+├── routes/
+│   └── api.js            # Todas las rutas REST (montadas bajo /api)
+├── backup/               # Respaldos JSON usados por los scripts de migración
+├── seed.js               # Carga masiva de datos de prueba
+├── regenerar.js          # Regenera datos hasta un total objetivo
+├── diagnostico.js        # Diagnóstico de la base de datos
+├── migrar-exportar.js    # Migración: Atlas -> JSON
+├── migrar-importar.js    # Migración: JSON -> MongoDB local
+├── .env.example          # Plantilla de variables de entorno
+└── package.json
+```
 
 ---
 

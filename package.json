@@ -3,12 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "seed": "node seed.js",
+    "regenerar": "node regenerar.js",
+    "diagnostico": "node diagnostico.js",
+    "migrar:exportar": "node migrar-exportar.js",
+    "migrar:importar": "node migrar-importar.js"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "nosql"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "API REST (Node.js + Express + MongoDB) para gestionar el catalogo de titulos y el historial de visualizaciones de una plataforma de streaming. Proyecto de Bases de Datos No Relacionales - Universidad de Caldas.",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",

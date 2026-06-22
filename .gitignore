@@ -1,6 +1,11 @@
 # Dependencias
 node_modules/
 
+# Archivos de sistema (Windows / macOS)
+Desktop.ini
+Thumbs.db
+.DS_Store
+
 # Variables de entorno (contienen credenciales, NO subir)
 .env
 .env.*
